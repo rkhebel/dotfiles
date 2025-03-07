@@ -1,0 +1,37 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.accessibilitySupport": "off",
+    "csv-edit.readOption_hasHeader": "true",
+    "notebook.output.scrolling": true,
+    "notebook.output.wordWrap": true,
+    "workbench.editor.enablePreview": false,
+    "jupyter.askForKernelRestart": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.preferredDarkColorTheme": "Monokai Dimmed",
+    "workbench.preferredLightColorTheme": "Alabaster",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "Afterglow Remastered",
+    "python.defaultInterpreterPath": "./venv/bin/python"
+}
